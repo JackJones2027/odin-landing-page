@@ -1,0 +1,64 @@
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+}
+
+/* temporary img borders */
+img {
+    border: red solid 10px;
+}
+
+/* background colors and shared values between sections */
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+.boxes,
+.signup {
+    background-color: #f9faf8;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+/* header flex */
+.header {
+    display:flex;
+    flex-direction: column;
+    gap:48px;
+}
+
+/* navbar flex */
+
+.header .navbar {
+    display: flex;
+    align-items: baseline;
+    padding: 16px 96px;
+}
+
+.navbar .title {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-right: auto;
+}
+
+.navbar .links {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    gap: 16px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* header content flex*/
+
